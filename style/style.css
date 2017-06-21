@@ -1,0 +1,13 @@
+.nav {
+  width: 1477px;
+  height: 70px;
+  background-image: linear-gradient(to left, #ffffff, #f2f3f5);
+}
+
+body {
+  background-color: blue;
+}
+
+.icon-settings {
+  margin-top: 5px;
+}

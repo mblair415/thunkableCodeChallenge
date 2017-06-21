@@ -1,0 +1,18 @@
+.nav {
+  width: 1477px;
+  height: 70px;
+  border-bottom: 2px solid #D8D8D8;
+  background-image:
+    linear-gradient(to left, #ffffff, #f2f3f5);
+}
+
+.icon-settings {
+  margin-top: 10px;
+}
+
+body {
+  width: 1477px;
+  height: 983px;
+  background-image:
+    linear-gradient(to left, #fcf5f5, #f0f2ff);
+}
