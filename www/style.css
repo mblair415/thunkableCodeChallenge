@@ -10,9 +10,91 @@
   margin-top: 10px;
 }
 
-body {
+.full-screen {
   width: 1477px;
   height: 983px;
   background-image:
     linear-gradient(to left, #fcf5f5, #f0f2ff);
+}
+
+.icon-home {
+  max-width: 68px;
+  max-height: 68px;
+  margin-left: -10px;
+}
+
+.icon-settings {
+  margin-right: 31px;
+}
+
+.search-sort {
+  margin-top: 17px
+}
+
+.search-window {
+  width: 53.3px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #eaeaea;
+  padding-top: 10px;
+  padding-left: 13px;
+  margin-left: 115px;
+}
+
+.sort-title {
+  width: 93px !important;
+  max-height: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #7d7d7d;
+  margin-left: 300px !important;
+}
+
+.sort-dropdown {
+  max-width: 132px;
+  max-height: 40px;
+  border-radius: 2px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #6a6a6a;
+  margin-right: 191px;
+}
+
+.app-card-container {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.new-app-card {
+  width: 270px;
+  height: 250px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.new-app-button {
+    background-image:
+      linear-gradient(141deg, #c4cfff, #c7b1ff) !important;
+    max-height: 66px;
+    max-width: 66px;
+    margin-top: 66px;
+    margin-left: 100px;
+}
+
+.new-app-title {
+  width: 151px;
+  height: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #5d5d5d;
+  margin-left: 56.5px;
+  margin-top: 39px;
 }

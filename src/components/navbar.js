@@ -1,24 +1,20 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
 class Navbar extends Component {
   render () {
     return (
-      <div>
-        <div class="layer" data-id="58f91fda09f7358c5f1d979b" style="width: 4.73934%; height: 7.12106%; left: 0%; top: 0%;">
-          <div class="layerWidth">70px</div>
-          <div class="layerHeight">70px</div>
-          <div class="cornerCircle topLeftCircle"></div>
-          <div class="edgeCircle horizontalEdgeCircle topCircle"></div>
-          <div class="cornerCircle topRightCircle"></div>
-          <div class="edgeCircle verticalEdgeCircle rightCircle"></div>
-          <div class="cornerCircle bottomRightCircle"></div>
-          <div class="edgeCircle horizontalEdgeCircle bottomCircle"></div>
-          <div class="cornerCircle bottomLeftCircle"></div>
-          <div class="edgeCircle verticalEdgeCircle leftCircle"></div>
+      <section class="nav">
+        <div class="row">
+          <div class="col s1 left">
+            <img class="responsive-img icon-home" src="http://i.imgur.com/9UNGohh.png?1" alt="red thing">
+          </div>
+          <div class="icon-settings col s2 right">
+            <i class="material-icons medium right">settings</i>
+          </div>
         </div>
-      </div>
+      </section>
     )
   }
 }
 
-export default Navbar
+export default Navbar;
