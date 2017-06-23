@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import IndividualPreview from './IndividualPreview';
 
 class AppPreview extends Component {
   render () {
@@ -11,7 +12,7 @@ class AppPreview extends Component {
           </div>
         </div>
         <div class="col s6 m3 l2 app-card card">
-// insert app component
+          <IndividualPreview />
         </div>
       </section>
     )
