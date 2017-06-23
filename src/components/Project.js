@@ -6,11 +6,11 @@ import AppPreview from './AppPreview';
 class Project extends Component {
   render () {
     return (
-      <div class="full-screen">
+      <div className="full-screen">
         <Navbar />
         <SearchSort />
         <AppPreview />
-      <div>
+      </div>
     )
   }
 }
