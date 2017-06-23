@@ -8,7 +8,7 @@ class Sort extends Component {
           Sort by:
         </div>
         <div className="col s6 sort-dropdown right">
-          dropdown
+          Last edit <img src="http://i.imgur.com/Q9MK2dU.png" alt="dropdown icon" />
         </div>
       </div>
     )
